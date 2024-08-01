@@ -4,7 +4,7 @@ from sqlalchemy.orm import Session
 from datetime import date
 
 import crud, schemas
-from database import SessionLocal
+from chapter3.database import SessionLocal
 
 app = FastAPI()
 

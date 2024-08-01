@@ -6,7 +6,7 @@ from datetime import date
 
 
 import crud, schemas
-from database import SessionLocal
+from chapter3.database import SessionLocal
 
 api_description = """
 This API provides read-only access to info from the Sports World Central (SWC) Fantasy Football API. 
